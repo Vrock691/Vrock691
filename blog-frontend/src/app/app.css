@@ -1,0 +1,23 @@
+:host {
+	display: block;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.layout {
+	width: min(1240px, 100% - 5rem);
+	margin: 4rem auto 4rem;
+	display: grid;
+	grid-template-columns: minmax(220px, 280px) minmax(0, 1fr);
+	gap: 8rem;
+}
+
+@media (max-width: 720px) {
+	.layout {
+		width: calc(100% - 1rem);
+		grid-template-columns: 1fr;
+		margin-top: 1rem;
+	}
+}
