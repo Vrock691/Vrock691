@@ -8,7 +8,7 @@
 
 .layout {
 	width: min(1240px, 100% - 3rem);
-	margin: 2.5rem auto 3rem;
+	margin: 7rem auto 3rem;
 	display: grid;
 	grid-template-columns: minmax(220px, 280px) minmax(0, 1fr);
 	gap: clamp(1.5rem, 4vw, 5rem);
@@ -18,9 +18,9 @@ main {
 	min-width: 0;
 }
 
-@media (max-width: 980px) {
+@media (max-width: 1350px) {
 	.layout {
-		width: calc(100% - 3rem);
+		width: calc(100% - 7rem);
 		grid-template-columns: minmax(200px, 240px) minmax(0, 1fr);
 		margin-top: 2rem;
 		gap: 1.75rem;
