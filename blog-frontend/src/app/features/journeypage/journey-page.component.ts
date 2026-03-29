@@ -2,7 +2,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
   selector: 'app-journey-page',
-  template: "",
+  templateUrl: 'journey-page.component.html' ,
   host: {
     class: 'block'
   },

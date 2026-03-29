@@ -2,7 +2,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
   selector: 'app-skills-page',
-  template: "",
+  templateUrl: './skills-page.component.html',
   host: {
     class: 'block'
   },

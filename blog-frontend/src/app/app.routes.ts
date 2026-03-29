@@ -23,21 +23,21 @@ export const routes: Routes = [
 	{
 		path: 'projects',
 		loadComponent: () =>
-			import('./features/pages/projects-page.component').then(
+			import('./features/projectspage/projects-page.component').then(
 				(m) => m.ProjectsPageComponent
 			)
 	},
 	{
 		path: 'skills',
 		loadComponent: () =>
-			import('./features/pages/skills-page.component').then(
+			import('./features/skillspage/skills-page.component').then(
 				(m) => m.SkillsPageComponent
 			)
 	},
 	{
 		path: 'journey',
 		loadComponent: () =>
-			import('./features/pages/journey-page.component').then(
+			import('./features/journeypage/journey-page.component').then(
 				(m) => m.JourneyPageComponent
 			)
 	},
